@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="recent">Récent</string>
+    <string name="setting">Paramètres</string>
+    <string name="version_app">Version v1.0.0</string>
+    <string name="language">Langue</string>
+    <string name="language_icon_desc">Icône de langue</string>
+    <string name="dark_mode_desc">Icône de mode sombre</string>
+    <string name="theme">Thème</string>
+    <string name="send_sms">Envoyer un SMS</string>
+    <string name="call">Appeler</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="name_contact">Inconnu</string>
+    <string name="date_recent">Aujourd\'hui</string>
+    <string name="sms_message">Bonjour!</string>
+
+    <string-array name="language_options">
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Arabe</item>
+    </string-array>
+</resources>

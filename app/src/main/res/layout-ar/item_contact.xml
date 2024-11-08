@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layoutDirection="rtl">
+
+    <ImageView
+        android:id="@+id/imageViewContactIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="letter of name" />
+
+    <TextView
+        android:id="@+id/textContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123-456-7890"
+        android:textSize="14sp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/textContactName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="John Doe"
+        android:layout_margin="5dp"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewOptions"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/more_vert"
+        android:contentDescription="More option"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

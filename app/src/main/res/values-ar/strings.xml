@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">جهات الاتصال</string>
+    <string name="recent">المكالمات الواردة</string>
+    <string name="setting">الإعدادات</string>
+    <string name="version_app">الإصدار v1.0.0</string>
+    <string name="language">اللغة</string>
+    <string name="language_icon_desc">رمز اللغة</string>
+    <string name="dark_mode_desc">رمز الوضع الداكن</string>
+    <string name="theme">لون تطبيق</string>
+    <string name="send_sms">إرسال رسالة نصية</string>
+    <string name="call">اتصال</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="name_contact">مجهول</string>
+    <string name="date_recent">اليوم</string>
+    <string name="sms_message">سلام عليكم</string>
+    <string-array name="language_options">
+        <item>الإنجليزية</item>
+        <item>الفرنسية</item>
+        <item>العربية</item>
+    </string-array>
+</resources>
